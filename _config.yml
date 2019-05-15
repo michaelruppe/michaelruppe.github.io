@@ -48,6 +48,14 @@ minima:
 # Build settings
 theme: minima
 
+# Plugins
+plugins:
+  - jekyll-menus
+
 # plugins_dir:
 #  - jekyll-feed
 #  - jekyll-seo-tag
+
+
+# Global permalink template (date used for posts, ignored for pages)
+# permalink: /:categories/:year/:month/:day/:title:output_ext
