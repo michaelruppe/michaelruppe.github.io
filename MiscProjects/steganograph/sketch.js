@@ -21,7 +21,6 @@ let encoderBit = 7; // Which bit in the pixel are we going to hide our data? MSB
 function preload() {
  srcImg = loadImage(sourceImagePath);
  desImg = loadImage(sourceImagePath);
- preTxt = loadStrings(preamblePath);
  srcTxt = loadStrings(sourceTextPath);
 }
 
@@ -82,7 +81,6 @@ function setup() {
     // console.log(char(intDecode));
     outputText += char(intDecode);
   }
-  createP(preTxt.toString());
   createP(outputText);
 
 
