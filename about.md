@@ -4,6 +4,13 @@ title: About
 permalink: /about/
 ---
 
+Micahel -
+*"a barely competent programmer"*
+
+<img src="/assets/images/portrait-crop.jpg" alt="drawing" width="250"/>
+
+Look at this troublemaker. _Who_ would want to hire _him_?
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
