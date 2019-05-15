@@ -19,7 +19,8 @@ let size = 400;
 let alpha = 24;
 
 function setup() {
-  createCanvas(600,600);
+  let canvas = createCanvas(600,600);
+  canvas.parent('sketch-holder');
   background(255);
   r = width/2;
 }
