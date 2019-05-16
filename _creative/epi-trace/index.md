@@ -1,5 +1,5 @@
 ---
-title: Tracing Machine
+title: EpiTrace
 layout: page
 thumbnail: screenshot.png
 tagline: mechanical, kinda creepy.
@@ -17,5 +17,7 @@ Kinda creepy-lookin mechanical tracer
 <div id="sketch-holder"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.0/p5.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.0/addon/dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.0/addons/p5.dom.min.js"></script>
+
 <script src="https://michaelruppe.github.io/Project-Laura/fourier-trace/sketch.js">
+<script src="https://michaelruppe.github.io/Project-Laura/fourier-trace/fourier.js">
