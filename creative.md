@@ -11,10 +11,11 @@ Here you'll find creative projects, mostly Generative art and interactive demos.
 </ul> -->
 Before
 
-<ul>
-    {% for doc in site.docs %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-    {% endfor %}
-</ul>
+{% for cat in site.docs %}
+<h2>{{ cat.name | capitalize }}</h2>
+    <ul>
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    </ul>
+{% endfor %}
 
 after
