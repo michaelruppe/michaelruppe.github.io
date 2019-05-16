@@ -8,13 +8,15 @@ meta-title: morph
 meta-description: art using p5.js
 meta-image: screenshot.png
 tags: [interactive, example, p5.js, javascript]
+code-source: https://github.com/michaelruppe/Project-Laura/tree/master/fourier-trace
 ---
+
+## Out of order
+Kinda creepy-lookin mechanical tracer
 
 <div id="sketch-holder"></div>
 
-## Out of order
-
-Kinda creepy-lookin mechanical tracer
+Get the source code [here]({{ page.code-source }})
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.0/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.0/addon/dom.min.js"></script>
