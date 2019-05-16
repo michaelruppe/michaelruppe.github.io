@@ -46,7 +46,11 @@ collections:
   docs:
     output: true
     permalink: /docs/:name
-  creative:
+  Creative:
+    output: true
+  MachineLearning:
+    output: true
+  MiscProjects:
     output: true
 
 
