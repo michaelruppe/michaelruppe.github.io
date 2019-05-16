@@ -8,7 +8,7 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-  
+
   <!-- Tiled with thumbnails -->
   <div class="row">
 
@@ -18,7 +18,7 @@ layout: default
             <a href="{{ project.url | relative_url }}">
                 <div class="img__wrap">
                 {%if project.thumbnail %}
-                  <img class="img__img" src="{{site.baseurl}}/{{ project.url | replace: "/", " " | truncatewords: 2, "" | replace: " ", "/" }}/{{ project.thumbnail }}"></img>
+                  <img class="img__img" width="200" src="{{site.baseurl}}/{{ project.url | replace: "/", " " | truncatewords: 2, "" | replace: " ", "/" }}/{{ project.thumbnail }}"></img>
                 {% else %}
                   <img class="img__img" src="{{ "assets/default_thumbnail.png" | relative_url }}"></img>
                 {% endif %}
