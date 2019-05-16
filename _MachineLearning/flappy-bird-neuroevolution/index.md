@@ -9,6 +9,7 @@ meta-description: Neuroevolution of a flappy-bird
 meta-image: screenshot.png
 tags: [neural, networks, p5.js, javascript]
 code-source: https://github.com/michaelruppe/ml-experiments/tree/master/flappy-bird-neuroevolution/toy
+permalink: /MachineLearning/flappy-bird-neuroevolution
 ---
 
 Here's my spin on the machine-learning right-of-passage: Building a flappy bird clone.
