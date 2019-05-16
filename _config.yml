@@ -27,8 +27,8 @@ minima:
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
+    # youtube_channel:
+    # youtube_channel_name:
     # telegram: jekyll
     # googleplus: +jekyll
     # microdotblog: jekyll
@@ -42,8 +42,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
 
 # Build settings
 theme: minima
