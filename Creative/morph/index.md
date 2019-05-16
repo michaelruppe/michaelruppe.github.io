@@ -1,6 +1,6 @@
 ---
 title: morph
-layout: post
+layout: page
 thumbnail: screenshot.png
 tagline: squishy, kinda creepy.
 sort-key: 100

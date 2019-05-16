@@ -1,6 +1,6 @@
 ---
 title: particle
-layout: post
+layout: page
 thumbnail: screenshot.png
 tagline: A peaceful animaition of particles
 sort-key: 100

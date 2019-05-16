@@ -1,6 +1,6 @@
 ---
 title: Tracing Machine
-layout: post
+layout: page
 thumbnail: screenshot.png
 tagline: mechanical, kinda creepy.
 sort-key: 100
