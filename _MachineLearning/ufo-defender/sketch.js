@@ -74,7 +74,7 @@ function setup() {
 
 
   speedSelect = createSelect();
-  speedSelect.position(30, height + 30);
+  speedSelect.position(40, height + 30);
   speedSelect.option('1x');
   speedSelect.option('2x');
   speedSelect.option('3x');
