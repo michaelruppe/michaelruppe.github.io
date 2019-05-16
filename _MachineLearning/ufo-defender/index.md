@@ -23,7 +23,7 @@ code-source: https://github.com/michaelruppe/ml-experiments/tree/master/ufo-defe
 
 Here's my spin on the machine-learning right-of-passage: Building a flappy bird clone.
 
-**Apologies**: The script displays poorly using jekyll templating. This problem does not occur on the [original project page](https://michaelruppe.github.io/ml-experiments/ufo-defender/index.html).
+**Apologies**: The script renders poorly (the controls are offscreen!) using jekyll templating. This problem does not occur on the [original project page](https://michaelruppe.github.io/ml-experiments/ufo-defender/index.html).
 
 <div>
   <div id="sketch-holder"></div>
