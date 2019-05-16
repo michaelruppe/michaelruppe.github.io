@@ -1,7 +1,7 @@
 ---
 title: morph
 layout: page
-thumbnail: screenshot.png
+thumbnail: thumbnail.png
 tagline: squishy, kinda creepy.
 sort-key: 100
 meta-title: morph
