@@ -15,7 +15,6 @@ code-source: https://github.com/michaelruppe/Project-Laura/tree/master/particle
 
 <div id="sketch-holder"></div>
 
-Get the source code [here]({{ page.code-source }})
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
 <script src="https://michaelruppe.github.io/Project-Laura/particle/sketch.js">

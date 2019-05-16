@@ -14,7 +14,6 @@ code-source: https://github.com/michaelruppe/Project-Laura/tree/master/morph/03
 <div id="sketch-holder"></div>
 
 A squishy, alive-looking demonstration of 3D noise.
-Get the source code [here]({{ page.code-source }})
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
 <script src="https://michaelruppe.github.io/Project-Laura/morph/03/sketch.js">

@@ -16,8 +16,6 @@ Kinda creepy-lookin mechanical tracer
 
 <div id="sketch-holder"></div>
 
-Get the source code [here]({{ page.code-source }})
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.0/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.0/addon/dom.min.js"></script>
 <script src="https://michaelruppe.github.io/Project-Laura/fourier-trace/sketch.js">
