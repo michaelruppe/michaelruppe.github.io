@@ -1,14 +1,9 @@
-/*******************************************************************************
- * Steganograph - Hiding text data in an image with naive steganography
- * Michael Ruppe
- *
- ******************************************************************************/
+// Steganography demo. Hiding text data in an image.
 
 const sourceImagePath = "lena-bw.jpg";
-const preamblePath = "preamble.txt";
 const sourceTextPath = "the-hobbit-full.txt";
 
-const charPerPixel = 2; // We can encode one ASCII character across the LSB of 2 pixels, because we have (R,G,B,A) per pixel to work with.
+const charPerPixel = 2; // We can encode one ASCII character in 2 pixels, because we have (R,G,B,A) per pixel to work with.
 let srcImg, desImg;
 let buffer = [];
 let dBuffer=  [];
@@ -25,7 +20,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(srcImg.width*2, srcImg.height);
+  let canvas = createCanvas(srcImg.width*2, srcImg.height);
+  canvas.parent('sketch-holder');
   background(127);
   image(srcImg,0,0); // Display source image
   srcImg.loadPixels();
@@ -69,7 +65,7 @@ function setup() {
 
 
   // Decode the text, and display it
-  for (let i = 0; i < charCount; i++){ // Technically cheating by invoking charCount... we wouldn't really know *HOW MUCH* text has been encoded, but it would be trivial to specify a header section in the encoded data
+  for (let i = 0; i < charCount; i++){ // Technically cheating by invoking charCount... we wouldn't really know *HOW MUCH* text has been encoded, but it would be trivial to reserve eg. first 32bits to act as a letter counter in the encoded message.
     let intDecode = 0;
     // Take 8-bits and create an integer
     for (let j = 0; j < 8; j++){
@@ -85,10 +81,17 @@ function setup() {
 
 
 
+
+}
+
+function draw() {
+  // background(127);
   image(desImg, srcImg.width,0); // make sure we're showing the destination image so there's no doubt...
   desImg.updatePixels();
-  noLoop();
 }
+
+
+
 
 
 
