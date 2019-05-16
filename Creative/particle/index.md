@@ -1,7 +1,7 @@
 ---
 title: particle
 layout: page
-thumbnail: screenshot.png
+thumbnail: thumbnail.png
 tagline: A peaceful animaition of particles
 sort-key: 100
 meta-title: particle
