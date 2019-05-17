@@ -1,6 +1,7 @@
 ---
 title: Steganograph
-layout: page
+layout: post
+date: 2017-11-04
 thumbnail: demo/screenshot.png
 tagline: Hide secret messages in plain sight
 meta-title: Steganograph

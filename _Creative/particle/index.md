@@ -1,6 +1,7 @@
 ---
 title: particle
-layout: page
+layout: post
+date: 2017-11-17
 thumbnail: thumbnail.png
 tagline: A peaceful animaition of particles
 sort-key: 100
