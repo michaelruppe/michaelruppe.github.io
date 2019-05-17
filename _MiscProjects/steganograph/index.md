@@ -25,6 +25,9 @@ Each pixel has a byte-value for Red, Green, Blue and Alpha (transparency). By re
 
 Since there are 8bits in an ASCII character, this means two pixels are needed to hide the data for one character. At 512x512 pixels and 4 channels per pixel that means we have a capacity for (512x512*4) bits, or 131,072 characters. Apparently, on average there are 4.9 characters per word so we should be able to store about 26,500 words in the sample image. Pretty close to the actual count of about 23,000 - considering spaces and punctuation aren't counted in the theoretical number.
 
+### A note
+
+It's worth noting that this is a very naive approach to steganography. In practice, the pixel values aren't modified directly - statistical analysis breaks this method. For example, real digital-image steganography like the `jsteg` algorithm hide the data within the Discrete Cosine Transform coefficients that are used for compressing and representing chunks of a jpeg image.
 
 ### References
  - Inspiration for this project came from watching [this video](https://www.youtube.com/watch?v=TWEXCYQKyDc) on [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
