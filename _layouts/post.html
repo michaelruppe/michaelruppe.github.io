@@ -15,13 +15,15 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+  {%- if page.code-source -%}
+  <div> Source code <a href="{{ page.code-source }}">here</a></div>
+  <br>
+  {%- endif -%}
+  
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  {%- if page.code-source -%}
-    <div> Get the source code <a href="{{ page.code-source }}">here</a></div>
-  {%- endif -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

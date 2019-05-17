@@ -7,6 +7,11 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
+  {%- if page.code-source -%}
+  <div> Source code <a href="{{ page.code-source }}">here</a></div>
+  <br>
+  {%- endif -%}
+  
   <div class="post-content">
     {{ content }}
   </div>
