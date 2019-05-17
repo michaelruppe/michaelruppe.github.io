@@ -15,7 +15,7 @@ This is my first completely unguided machine learning project - defending Earth 
 
 **[Play the demo here](demo/index.html)**
 
-![A screenshot of the game enviroment](demo/screenshot.png)
+[![A screenshot of the game enviroment](demo/screenshot.png)](demo/index.html)
 
 Here, a neural network learns to solve a fire-control problem: How to hit a moving target with projectile motion.
 Like many beginner ML problems, of course this could be solved analytically. I think it makes for a neat project though.
