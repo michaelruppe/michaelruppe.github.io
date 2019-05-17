@@ -3,21 +3,19 @@ title: Fearless Flappers
 layout: page
 thumbnail: thumbnail.png
 tagline: Neuroevolution of a flappy-bird
-sort-key: 100
 meta-title: Flappy Bird - Neuroevolution
 meta-description: Neuroevolution of a flappy-bird
 meta-image: screenshot.png
 tags: [neural, networks, p5.js, javascript]
 code-source: https://github.com/michaelruppe/ml-experiments/tree/master/flappy-bird-neuroevolution/toy
-permalink: /MachineLearning/flappy-bird-neuroevolution
+permalink: /MachineLearning/flappy-bird-neuroevolution/
 ---
 
-Here's my spin on the machine-learning right-of-passage: Building a flappy bird clone.
+Here's my spin on a modern rite of passage for beginners in machien learning: Building a flappy bird clone.
 
-<div id="sketch-holder"></div>
-<p>Time-Warp: <div id="slider-holder"></div></p>
-<div id="gen-holder"></div>
-<div id="score-holder"></div>
+[See it working here](demo/index.html)
+
+![](screenshot.png)
 
 ## What's going on here?
 
@@ -31,7 +29,7 @@ or speed.
 
 ### A diagram of inputs and outputs for the neural network
 
-![Schematic of inputs to the neural network](art/flappy-diagram.jpg)
+![Schematic of inputs to the neural network](demo/art/flappy-diagram.jpg)
 
 
 
