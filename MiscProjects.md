@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creative Projects
+title: Misc. Projects
 ---
 Here you'll find miscellaneous coding projects. Stuff that doesn't really fit in with any other category on the site.
 

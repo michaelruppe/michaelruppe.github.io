@@ -45,7 +45,9 @@ collections:
 # What links to show in the header-bar
 header_pages:
   - about.md
-  - creative.md
+  - Creative.md
+  - MachineLearning.md
+  - MiscProjects.md
 
 # Build settings
 theme: minima
