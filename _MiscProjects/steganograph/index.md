@@ -27,7 +27,8 @@ Since there are 8bits in an ASCII character, this means two pixels are needed to
 
 ### A note
 
-It's worth noting that this is a very naive approach to steganography. In practice, the pixel values aren't modified directly - statistical analysis breaks this method. For example, real digital-image steganography like the `jsteg` algorithm hide the data within the Discrete Cosine Transform coefficients that are used for compressing and representing chunks of a jpeg image.
+This is what's known as *spatial* encoding - putting the data directly into the pixel. It's a kinda naive approach to steganography and is vulnerable to discovery by statistical analysis. Perhaps a better approach is to encode into the *frequency domain*, but this can still be attacked by statistical analysis. If you want to learn more, check out the links below.
 
 ### References
  - Inspiration for this project came from watching [this video](https://www.youtube.com/watch?v=TWEXCYQKyDc) on [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
+ - More robust steganography (for jpegs) encodes into the [DCT coefficients](https://www.youtube.com/watch?v=Q2aEzeMDHMA) instead.
