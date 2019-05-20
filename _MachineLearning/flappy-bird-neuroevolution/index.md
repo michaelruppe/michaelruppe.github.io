@@ -1,7 +1,7 @@
 ---
 title: Fearless Flappers
 layout: page
-date:
+date: 2019-04-10
 thumbnail: thumbnail.png
 tagline: Neuroevolution of a flappy-bird
 meta-title: Flappy Bird - Neuroevolution
