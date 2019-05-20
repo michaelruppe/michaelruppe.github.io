@@ -1,6 +1,6 @@
 ---
 title: Fearless Flappers
-layout: page
+layout: post
 date: 2019-04-10
 thumbnail: thumbnail.png
 tagline: Neuroevolution of a flappy-bird
