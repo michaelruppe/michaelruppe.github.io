@@ -1,7 +1,6 @@
 ---
 title: EpiTrace
 layout: page
-thumbnail: screenshot.png
 tagline: mechanical, kinda creepy.
 sort-key: 100
 meta-title: morph

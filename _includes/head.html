@@ -8,4 +8,31 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+
+  <style>
+  /* This chunk handles displaying descriptions over thumbnails */
+  .img__wrap {
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+  .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  /* transition effect */
+   transition: opacity .2s, visibility .2s;
+  }
+  .img__wrap:hover .img__description {
+   visibility: visible;
+   opacity: 1;
+  }
+  /* Above chunk handles displaying descriptions over thumbnails */
+  </style>
 </head>

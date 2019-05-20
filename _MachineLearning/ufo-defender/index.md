@@ -1,7 +1,7 @@
 ---
 title: UFO Defender
 layout: page
-thumbnail: demo/screenshot.png
+thumbnail: demo/thumbnail.png
 tagline: Defending Earth with neuroevolution
 meta-title: UFO Defender - Neuroevolution
 meta-description: Defending Earth with neuroevolution
