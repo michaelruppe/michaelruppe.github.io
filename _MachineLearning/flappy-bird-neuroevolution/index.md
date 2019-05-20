@@ -1,6 +1,7 @@
 ---
 title: Fearless Flappers
 layout: page
+date:
 thumbnail: thumbnail.png
 tagline: Neuroevolution of a flappy-bird
 meta-title: Flappy Bird - Neuroevolution
@@ -41,9 +42,9 @@ The population is trialled all at the same time, and performance is measured by 
 If a bird hits a pipe it is killed off, with its performance logged.
 Better performing birds are more likely to pass their genetics (neural net) to the next generation, with small mutations.
 
-### A diagram of inputs and outputs for the neural network
+#### A diagram of inputs and outputs for the neural network
 
-![Schematic of inputs to the neural network](demo/art/flappy-diagram.jpg)
+![Schematic of inputs to the neural network](art/flappy-diagram.jpg)
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
