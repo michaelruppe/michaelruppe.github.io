@@ -46,6 +46,11 @@ Better performing birds are more likely to pass their genetics (neural net) to t
 
 ![Schematic of inputs to the neural network](art/flappy-diagram.jpg)
 
+## References
+
+ - [Toy Neural Network](https://github.com/CodingTrain/Toy-Neural-Network-JS) - The Coding Train
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
