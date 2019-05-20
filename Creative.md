@@ -27,7 +27,7 @@ Here you'll find creative projects, mostly generative art and interactive demos.
                 <img class="img__img" width="200" src="{{ "assets/default_thumbnail.png" | relative_url }}">
               {% endif %}
                 <div class="img__description_layer">
-                    <p class="img__description">{{ project.title }}<br>{{ project.tagline }}</p>
+                    <p class="img__description">{{ project.title }}<br><br>{{ project.tagline }}</p>
                 </div>
             </div>
           </a>
