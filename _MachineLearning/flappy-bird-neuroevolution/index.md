@@ -11,7 +11,7 @@ code-source: https://github.com/michaelruppe/ml-experiments/tree/master/flappy-b
 permalink: /MachineLearning/flappy-bird-neuroevolution/
 ---
 
-Here's my spin on a modern rite of passage for beginners in machien learning: Building a flappy bird clone.
+Here's my spin on a modern rite-of-passage for beginners in machine learning: Building a flappy bird clone.
 
 [See it working here](demo/index.html)
 
@@ -22,15 +22,26 @@ Here's my spin on a modern rite of passage for beginners in machien learning: Bu
 A population of birds tries to navigate the course. The more successful birds
 are more likely to reproduce. Small mutations affect the behaviour of offspring.
 
-Each bird is controlled by a neural-network which has some information about the virtual world -
-like the bird's position and distance-to-wall, for example. The neural-net can only control the bird's flapping.
-Importantly, the neural-nets have no idea about the physical meaning of the inputs - it has no concept of distance
-or speed.
+First, the game environment was created. This is:
+
+ - The physics that affect the bird - gravity and flap mechanics
+ - The obstacles
+ - Collision logic
+
+Next, the neural network is given control of the gun, and fed information from the game enviroment.
+The neural network is dense (fully-connected) and has:
+ - 5 Inputs: Bird height & vertical speed, distance to the pipes, length of top & bottom pipe.
+ - A single hidden layer with 8 neurons.
+ - 1 Output: Flap.
+
+The population is trialled all at the same time, and performance is measured by how many pixels the bird makes it to the right.
+
+If a bird hits a pipe it is killed off, with its performance logged.
+Better performing birds are more likely to pass their genetics (neural net) to the next generation, with small mutations.
 
 ### A diagram of inputs and outputs for the neural network
 
 ![Schematic of inputs to the neural network](demo/art/flappy-diagram.jpg)
-
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
