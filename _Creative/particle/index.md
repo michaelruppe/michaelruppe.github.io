@@ -12,7 +12,6 @@ tags: [art, generative, example, p5.js, javascript]
 code-source: https://github.com/michaelruppe/Project-Laura/tree/master/particle
 ---
 
-### A calming ecosystem of particles, going about their business.
 
 <div id="sketch-holder"></div>
 
