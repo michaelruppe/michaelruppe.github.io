@@ -3,7 +3,7 @@ title: particle
 layout: post
 date: 2017-11-17
 thumbnail: thumbnail.png
-tagline: A peaceful animaition of particles
+tagline: A peaceful ecosystem of particles, going about their business
 sort-key: 100
 meta-title: particle
 meta-description: art using p5.js
