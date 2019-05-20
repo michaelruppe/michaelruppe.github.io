@@ -13,9 +13,11 @@ permalink: /MachineLearning/flappy-bird-neuroevolution/
 
 Here's my spin on a modern rite-of-passage for beginners in machine learning: Building a flappy bird clone.
 
-[See it working here](demo/index.html)
+<div id="sketch-holder"></div>
+<p>Time-Warp: <div id="slider-holder"></div></p>
+<div id="gen-holder"></div>
+<div id="score-holder"></div>
 
-![](screenshot.png)
 
 ## What's going on here?
 
