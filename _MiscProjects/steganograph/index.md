@@ -31,4 +31,3 @@ This is what's known as *spatial* encoding - putting the data directly into the 
 
 ### References
  - Inspiration for this project came from watching [this video](https://www.youtube.com/watch?v=TWEXCYQKyDc) on [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
- - More robust steganography (for jpegs) encodes into the [DCT coefficients](https://www.youtube.com/watch?v=Q2aEzeMDHMA) instead.
