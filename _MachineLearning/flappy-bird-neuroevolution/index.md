@@ -28,13 +28,12 @@ are more likely to reproduce. Small mutations affect the behaviour of offspring.
 First, the game environment was created. This is:
 
  - The physics that affect the bird - gravity and flap mechanics
- - The obstacles
- - Collision logic
+ - The obstacles and collision logic
 
-Next, the neural network is given control of the gun, and fed information from the game enviroment.
+Next, control of each bird is handed over to a randomly-initialised neural network, which is fed information from the game enviroment.
 The neural network is dense (fully-connected) and has:
  - 5 Inputs: Bird height & vertical speed, distance to the pipes, length of top & bottom pipe.
- - A single hidden layer with 8 neurons.
+ - 1 hidden layer with 8 neurons.
  - 1 Output: Flap.
 
 The population is trialled all at the same time, and performance is measured by how many pixels the bird makes it to the right.
