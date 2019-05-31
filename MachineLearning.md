@@ -2,7 +2,7 @@
 layout: page
 title: Machine Learning
 ---
-Here you'll find creative projects, mostly generative art and interactive demos.
+Neural networks are cool as hell. Here's some experiments in machine learning and genetic algorithms!
 
 <!-- Simple unorderd list -->
 <!-- <ul>
