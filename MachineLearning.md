@@ -28,7 +28,7 @@ Neural networks are cool as hell. Here's some experiments in machine learning an
                 <img class="img__img" width="200" src="{{ "assets/default_thumbnail.png" | relative_url }}">
               {% endif %}
                 <div class="img__description_layer">
-                    <p class="img__description">{{ project.title }}<br>{{ project.tagline }}</p>
+                    <p class="img__description">{{ project.title }}:<br>{{ project.tagline }}</p>
                 </div>
             </div>
           </a>
