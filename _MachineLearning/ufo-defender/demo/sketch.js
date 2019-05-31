@@ -83,9 +83,9 @@ function setup() {
 
   modeSelect = createSelect();
   modeSelect.position(speedSelect.x + 130, speedSelect.y);
+  modeSelect.option('pretrained model');
   modeSelect.option('train');
   modeSelect.option('best so far');
-  modeSelect.option('pretrained model');
   modeSelect.option('manual');
   modeSelect.changed(changeMode);
 
